@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.movie {
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.movie-image {
+  height: 250px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+.movie-image img {
+  width: 100%;
+  height: auto;
+}
+.movie-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex: 1;
+}
